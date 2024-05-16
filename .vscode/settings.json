@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css",
+    "iosfwd": "cpp",
+    "array": "cpp",
+    "string_view": "cpp",
+    "initializer_list": "cpp",
+    "utility": "cpp",
+    "iostream": "cpp"
+  }
+}
