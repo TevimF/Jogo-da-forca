@@ -1,16 +1,15 @@
-#pragma once
-
-#include <string>
+#include <iostream>
 #include <map>
 #include <vector>
-#include <iostream>
 
+#include "../include/utils.hpp"
+#include "../include/game.hpp"
+#include "../include/arquivo.hpp"
 using namespace std;
 
-string palavra_secreta = "MELANCIA"; 
-map<char, bool> chutou;
-vector<char> chutes_errados;
-const string ENDERECO_ARQUIVO = "../palavras/palavras.txt";
+extern map<char, bool> chutou;
+extern vector<char> chutes_errados;
+extern string palavra_secreta;
 
 void imprime_cabecalho(){
     cout << "*********************" << endl;

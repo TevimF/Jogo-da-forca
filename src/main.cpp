@@ -1,10 +1,20 @@
-#pragma once
+#include <iostream>
+#include <map>
+#include <vector>
+#include <string>
+#include <fstream>
+#include <cstdlib>
+#include <ctime>
 
-#include "../include/main.hpp"
+#include "../include/utils.hpp"
 #include "../include/game.hpp"
 #include "../include/arquivo.hpp"
 
-#include <iostream>
+using namespace std;
+
+map<char, bool> chutou;
+vector<char> chutes_errados;
+string palavra_secreta;
 
 int main () {
     imprime_cabecalho();
